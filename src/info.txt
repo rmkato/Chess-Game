@@ -1,0 +1,18 @@
+Notes about the game: 
+	* chessboard object will hold game state: boardSpaces[][] array containing the spaces on the board and what piece it contains 
+	* board will be initialized to the start state and white player's turn to move first. 
+	* when a piece is clicked on (if it the correct player's turn) the potential move spaces will be highlighted.
+	* piece_type corresponds to a number: 0=blankspace, 1=pawn, 2=rook, 3=knight, 4=bishop, 5=king, 6=queen
+	
+	
+To-Do: 
+	* Error check 'check' game state and restrict moves for the opposing player if true; sometimes program doesn't properly switch turns 
+	
+	* Error check restricting moves that would cause own player to go into 'check' state 
+	
+	* Implement 'checkmate' game state to end the game and declare a winner 
+	
+	* Implement functionality for pawn to change piece type if it reaches the end of the board
+	* Implement a chess AI to play as a computer against a user
+	* Create a better window to hold the game board; display info at top like turn, check(mate), etc. 
+	* MUCH LATER ON - expand this game into a broader collection and include an interface that lets you launch the desired game (tic-tac-toe, blackjack, etc) 
